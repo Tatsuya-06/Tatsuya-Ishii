@@ -1,5 +1,4 @@
-
-<html>
+<!DOCTYPE html>
     <html lang="ja">
   <head>
     <meta charset="UTF-8">
@@ -82,6 +81,63 @@
           }
           
       }
+      
+      
+      .conB .photo{
+          min-height: 200px;
+          background-image: url(https://user-images.githubusercontent.com/64677144/81215008-a4b00980-9013-11ea-813b-46147a97ff68.jpeg);
+          background-position: center;
+          background-size: cover;
+      }
+      
+      .conB {
+          background-color: antiquewhite
+      }
+      .conB .text{
+          padding: 20px;
+      }
+      .conB .h2{
+          margin-top: 5px;
+          margin-bottom: 10px;
+          font-size: 20px;
+      }
+      .conB p{
+          margin-top: 0;
+          margin-bottom: 20px;
+          font-size: 14px;
+          line-height: 1.8;
+          opacity: 0.8;
+      }
+      .conB a{
+          display: inline-block;
+          margin-top: 20px;
+          padding: 10px 30px;
+          border: solid 3px currentColor;
+          border-radius: 6px;
+          background-color: var(--accent-color);
+          background-color: #BF6A7A;
+          color: #fff;
+          color: var(--text-bright-color);
+          font-size: 14px;
+          text-decoration: none;
+      }
+      .conB a:hover{background-image:  linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)
+          );}
+      @media (min-width:768px){
+          .conC .container{
+           min-height:200px;
+          max-width:1000px;
+          margin-left:auto;
+          margin-right: auto;
+          }
+          
+      .conB .photo{
+          flex: 2;
+      }
+      .conB .text{
+          flex: 3;
+          padding:50px;
+          }}
  </style>
           </head>
  
@@ -92,9 +148,37 @@
  
  <h1>profile</h1>
  <p>イシイタツヤの自己紹介</p>
- <a href="#https://tatsuya-06.github.io/hello/">作品集へ</a>
+ <a href="https://tatsuya-06.github.io/hello/">作品集へ</a>
  
  </div>
  </section>
+  
+     
+<section class="conB">
+    <div class="container">
+ <div class="photo"></div>
+    <div class="text">
+    <h2>石井達也</h2>
+    <p>1998.1/31<br>
+       東京都足立区生まれ<br>
+       東京成徳大学高等学校　卒業<br>
+       日本大学生産工学部創生デザイン学科　入学<br><br>
+       現在、大学四年生の男です。
+        小学校から中学校まで野球、高校ではバレーボールをやっていました。今でも月1程度でバレーをしています。<br>
+        趣味はアウトドア、格闘技観戦、海外旅行、プログラミング、漫画を読むこと。<br>
+        最近はポーカーにハマっています。<br><br><br>
+        
+        このホームページのソースコードはこちらからご覧いただけます<br>
+        <a href="https://github.com/Tatsuya-06"></a>
+    </p>    
+        
+</div>
+    
+    
+    
+    
+    
+     </div>
+      </section>
 </body>
       </html>
